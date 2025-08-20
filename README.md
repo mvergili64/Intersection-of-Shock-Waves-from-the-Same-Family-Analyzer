@@ -6,6 +6,8 @@ Bu projenin temel amacı, aynı aileden süpersonik şok dalgalarının kesişme
 
 Proje, süpersonik akışlarda şok dalgalarının kesişmesi sonucu oluşacak akışın davranışını anlamak, kesişim noktalarını belirlemek ve bu noktaların **basınç, sıcaklık ve yoğunluk** üzerindeki etkilerini analiz etmek için geliştirilmiştir.
 
+CFD Analizi ile uzun süreler çözümleme yapmak yerine interaktif yapısı sayesinde bu çalışma ile oluşacak eğik şoklar,akış özellikleri kısa sürede hesaplanabilmektedir.
+
 ---
 
 ## 2. Kullanılan Yöntemler
