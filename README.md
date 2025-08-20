@@ -99,3 +99,8 @@ project/
 - Animasyon ile akış ve şok davranışının görselleştirilmesi  
 - Kullanıcı dostu Tkinter arayüzü
 - Bu çalışmada, aynı aileden şok dalgalarının kesişmesinin ardından oluşacak akımın özelliklerini incelemek ve bu şok etkileşiminin ardındaki mekanizmayı daha iyi anlamak hedeflenmiştir.
+
+##İletişim Bilgilerim
+Programda eksik gördüğünüz durumlar veya hata,bug gibi sorunlar için iletişime geçebilirsiniz.
+https://github.com/mvergili64
+mehmetvergli43@gmail.com
