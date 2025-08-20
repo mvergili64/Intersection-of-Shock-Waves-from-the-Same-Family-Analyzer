@@ -37,16 +37,16 @@ Proje, süpersonik akışlarda şok dalgalarının kesişmesi sonucu oluşacak a
    pip install numpy scipy matplotlib pillow
 
 ## 4. Dosya Yapısı
-project/
-│
-├── Same_Family_Shock_Solver.py   # Şok kesişim hesaplamaları
-├── Oblique_Shock_Solver.py       # Eğik şok analizi
-├── Expansion_Wave_Solver.py      # Prandtl-Meyer genişleme dalgası
-├── Graphics.py                   # Basınç vs Theta grafikleri
-├── Animation.py                  # Akış animasyonu
-├── GUI.py                        # Tkinter arayüzü
-├── photo.png                     # GUI’de bölgeleri temsil eden resim.
-└── README.md                     # Proje açıklamaları
+- project/
+- │
+- ├── Same_Family_Shock_Solver.py   # Şok kesişim hesaplamaları
+- ├── Oblique_Shock_Solver.py       # Eğik şok analizi
+- ├── Expansion_Wave_Solver.py      # Prandtl-Meyer genişleme dalgası
+- ├── Graphics.py                   # Basınç vs Theta grafikleri
+- ├── Animation.py                  # Akış animasyonu
+- ├── GUI.py                        # Tkinter arayüzü
+- ├── photo.png                     # GUI’de bölgeleri temsil eden resim.
+- └── README.md                     # Proje açıklamaları
 
 ## 5. Kullanım
 
