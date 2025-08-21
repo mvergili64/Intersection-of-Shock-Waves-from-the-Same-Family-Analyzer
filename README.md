@@ -20,7 +20,11 @@ CFD Analizi ile uzun süreler çözümleme yapmak yerine interaktif yapısı say
 
 ### Aynı Aileden Şokların Kesişmesi
 `Same_Family_Shock_Solver.py` ile şok dalgalarının kesişimi sonrası iteratif yöntemlerle çözüm yapılarak akış özellikleri hesaplanır.
+
 ![Kodun Çalışma Yönteminin Akış Şeması İle Görselleştirilmesi](image.png)
+
+Kodun Çalışma Yönteminin Akış Şeması İle Görselleştirilmesi
+
 ### Grafiksel Görselleştirme
 `Graphics.py` kullanılarak basınç/sapma açısı diyagramları ve kesişim noktaları çizilir.
 
