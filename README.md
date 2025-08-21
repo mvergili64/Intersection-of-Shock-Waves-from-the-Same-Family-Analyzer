@@ -10,7 +10,24 @@ CFD Analizi ile uzun süreler çözümleme yapmak yerine interaktif yapısı say
 
 ---
 
-## 2. Kullanılan Yöntemler
+## 2. Yapılan Varsayımlar
+Bu çalışma kapsamında geliştirilen sayısal modellerde aşağıdaki varsayımlar esas alınmıştır:
+
+- Sabit Özgül Isı Oranı 
+- Adyabatik akış
+- Viskoz etkilerin ihmal edilmesi
+- Sıkıştırılabilir akış
+- 2 boyutlu akış modeli
+- Mükemmel gaz kanunları
+- Keskin ve kusursuz yüzeyler
+- Sürekli (steady) akış
+- Türbülans modeli kullanılmamıştır
+
+Çalışma sonunda aynı varsayımlarla SU-2 üzerinde CFD analiz ile program çıktıları doğrulaması yapılmıştır.
+
+---
+
+## 3. Kullanılan Yöntemler
 
 ### Eğik Şok Analizi
 `Oblique_Shock_Solver.py` ile süpersonik akışta eğik şok sonrası akış özelliklerinin (Basınç,Sıcaklık vb) değişimleri hesaplanır.
@@ -36,13 +53,13 @@ Kodun Çalışma Yönteminin Akış Şeması İle Görselleştirilmesi
 
 ---
 
-## 3. Kurulum ve Gereksinimler
+## 4. Kurulum ve Gereksinimler
 
 - **Python 3.10** veya üstü
 - Gerekli paketler:
    pip install numpy scipy matplotlib pillow
 
-## 4. Dosya Yapısı
+## 5. Dosya Yapısı
 - project/
 - │
 - ├── Same_Family_Shock_Solver.py   # Şok kesişim hesaplamaları
@@ -54,33 +71,33 @@ Kodun Çalışma Yönteminin Akış Şeması İle Görselleştirilmesi
 - ├── photo.png                     # GUI’de bölgeleri temsil eden resim.
 - └── README.md                     # Proje açıklamaları
 
-## 5. Kullanım
+## 6. Kullanım
 
-### 5.1 Arayüz Başlatma
+### 6.1 Arayüz Başlatma
 `GUI.py` çalıştırıldığında **Tkinter tabanlı bir arayüz** açılır.
 
-### 5.2 Girdi Parametreleri
+### 6.2 Girdi Parametreleri
 - **Mach:** Giriş Mach sayısı  
 - **Teta1:** İlk Rampa Açısı
 - **Teta2:** İkinci Rampa için Artış Açısı
 
-### 5.3 Hesaplama
+### 6.3 Hesaplama
 - “Hesapla” butonuna basıldığında:
   - Şok dalgalarının kesişim noktaları **nümerik olarak çözülür**.
   - Her bölge için **Mach, basınç, sıcaklık ve yoğunluk oranları** hesaplanır.
   - Hesaplanan değerler tabloda görüntülenir.
   - Grafikler (`grafik.png` ve `grafik_zoomed.png`) oluşturulur.
 
-### 5.4 Grafikler
+### 6.4 Grafikler
 - **Basınç-Sapma Açısı Diyagramı:** Kesişim noktalarını şok eğrileri ve genişleme dalgası eğrilerini gösterir.  
 - **Zoomlu Grafik:** Kesişim noktasını yakınlaştırılmış olarak gösterir.
 
-### 5.5 Animasyon
+### 6.5 Animasyon
 - “Akış Animasyonu” butonuna basıldığında, hesaplanan şok kesişim noktalarına göre **akış çizgileri ve şok dalgaları animasyonla** gösterilir.  
 - Animasyon sayesinde **şokların yönü, akış hatları ve kesişim noktaları** görsel olarak incelenebilir.
 
 ---
-## 6. Hata ve Uyarılar
+## 7. Hata ve Uyarılar
 
 - **Iteration Hatası:**  
   Giriş değerleri çok yüksek veya uygun değilse iterasyon sayısı yeterli olmayabilir.  
@@ -98,7 +115,7 @@ Kodun Çalışma Yönteminin Akış Şeması İle Görselleştirilmesi
 
 ---
 
-## 7. Proje Katkıları
+## 8. Proje Katkıları
 
 - Nümerik şok analizi ve görselleştirme çalışmaları  
 - Basınç-sapma açısı diyagramlarının çizimi  
