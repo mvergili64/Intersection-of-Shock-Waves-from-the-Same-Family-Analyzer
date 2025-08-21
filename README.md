@@ -93,7 +93,7 @@ Kodun Çalışma Yönteminin Akış Şeması İle Görselleştirilmesi
 - **Dosya Bulunamadı:**  
   Grafik veya varsayılan resim dosyaları eksikse hata alınır.
 
-- **Mach Sayısı:**
+- **Mach Sayısı:** 
   Girilen Mach Sayısı 1'den küçük ise şok oluşmayacağı için kullanıcıya uyarı verir.
 
 ---
